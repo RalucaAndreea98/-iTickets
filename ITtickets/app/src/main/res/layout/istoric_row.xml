@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".IstoricBilete"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relative3"
+        android:layout_width="wrap_content"
+        android:layout_height="281dp"
+        android:layout_marginTop="20sp"
+        android:clickable="true"
+        android:background="#8AFFFFFF"
+        android:backgroundTint="#1DAF8D"
+        android:minWidth="400dp">
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="29dp"
+            android:fontFamily="@font/wendy_one"
+            android:textAlignment="center"
+
+
+            android:textColor="#0E0E0E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/data3"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="29dp"
+
+            android:fontFamily="@font/wendy_one"
+            android:textColor="#121111"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/linie3"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="181dp"
+            android:fontFamily="@font/wendy_one"
+            android:textColor="#121111"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tip3"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="87dp"
+            android:layout_marginBottom="85dp"
+
+            android:fontFamily="@font/wendy_one"
+            android:textColor="#151414"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pret3"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_tip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="81dp"
+            android:layout_marginBottom="45dp"
+            android:fontFamily="@font/wendy_one"
+            android:textColor="#100F0F"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+

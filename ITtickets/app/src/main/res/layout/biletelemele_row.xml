@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".BileteleMele">
+
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="wrap_content"
+        android:layout_height="221dp"
+        android:layout_marginTop="20sp"
+        android:background="#8AFFFFFF"
+        android:backgroundTint="#1DAF8D"
+        android:minWidth="400dp">
+
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="292dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="55dp"
+
+            android:fontFamily="@font/wendy_one"
+            android:textColor="#0E0E0E"
+            android:textSize="14sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/linie"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="177dp"
+            android:fontFamily="@font/wendy_one"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="54dp"
+            android:layout_marginBottom="76dp"
+
+            android:fontFamily="@font/wendy_one"
+            android:textColor="#131313"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pret"
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_tip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="81dp"
+            android:layout_marginBottom="26dp"
+            android:fontFamily="@font/wendy_one"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
